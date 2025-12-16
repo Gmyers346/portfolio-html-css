@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Head -->
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cuzo Portfolio v1</title>
+</head>
+
+<!-- Body -->
+<body>
+    <header>
+    <section id="top">
+    <!-- Nav -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <h1>Welcome, I'm Cuzo</h1>
+        <p>This is my first real dev page.</p>
+        <p>I am aspiring to become a full stack developer</p>
+    </header>
+    </section>
+
+    <main>
+        <!-- about section -->
+        <section id="about">
+            <h2>About</h2>
+
+            <h3>Full Steam Ahead!</h3>
+            <p>
+                The road to full stack won't be <em>easy</em>, but I am persistent and I will master
+                the techniques of full stack development!
+            </p>
+
+            <h3>My Interests</h3>
+            <ul>
+                <li>Software Development</li>
+                <li>Cybersecurity</li>
+                <li>Data Science</li>
+                <li>Front-End Engineering</li>
+                <li>Camping + Outdoors</li>
+            </ul>
+
+            <h3>My Learning Roadmap</h3>
+            <ol>
+                <li>HTML Foundations</li>
+                <li>CSS Basics</li>
+                <li>JavaScript Fundamentals</li>
+                <li>React</li>
+                <li>Full-Stack Development</li>
+            </ol>
+
+            <p>
+                My favorite developer resource is 
+                <a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">
+                MDN Web 
+                </a>                
+            </p>    
+        </section>
+
+        <!-- projects section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>
+            <img 
+                src="Full-Stack-Developer.jpg" 
+                alt="full stack developer image" 
+                height="100" 
+                width="100"
+            />
+            </p>
+
+            <p>
+            <a href="#top">Back to top</a>
+            </p>
+        </section>
+
+        <!-- contact section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            
+            <form>
+                
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" />
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <p>Reason for contact:</p>
+
+                <label for="general">
+                    <input id="general" type="radio" name="reason" value="general" />
+                    General
+                </label>
+
+                <label for="project">
+                    <input id="project" type="radio" name="reason" value="general" />
+                    Project
+                </label>
+
+                <label for="subscribe">
+                    <input id="subscribe" type="checkbox" />
+                    Subscribe
+                </label>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!--footer section-->
+    <footer>
+        <p>&copy; 2025 Cuzo - Future Full-Stack Developer</p>
+    </footer>
+</body>
+</html>
